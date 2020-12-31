@@ -13,8 +13,8 @@ const HabitForm = (props) => {
   }
 
   return (
-    <div>
-      <h3>Add a Habit</h3>
+    <div style={{ "width": "60%", "margin": "0 auto"}}>
+      <h3 class="text-add-habit">Add a Habit</h3>
       <Form onSubmit={handleNewHabit}>
         <Form.Input placeholder='Jogging' type='text' value={habitName} onChange={(event) => setHabitName(event.target.value)} />
         <Form.Button type='submit'>Add new...</Form.Button>

@@ -29,7 +29,7 @@ app.use('/api/auth', authRouter)
 
 module.exports = app
 
-const PORT = process.env.PORT || 5000;
+// const PORT = process.env.PORT || 3001;
 
-app.listen(PORT, console.log(`Server started on port  http://localhost:${PORT}`));
+// app.listen(PORT, console.log(`Server started on port  http://localhost:${PORT}`));
 

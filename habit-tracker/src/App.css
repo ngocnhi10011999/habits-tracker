@@ -48,3 +48,7 @@
   font-size: 50px;
 }
 /******** Habit *********/
+.text-add-habit{
+  columns: white;
+  font-size: larger;
+}
